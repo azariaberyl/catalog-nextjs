@@ -20,9 +20,6 @@ function page() {
   };
   return (
     <div className='m-auto max-w-2xl h-full flex flex-col justify-center items-center'>
-      <Button className='my-2' variant='secondary'>
-        Login with Google
-      </Button>
       <h2 className='my-2'>Register</h2>
       <form onSubmit={onSubmit}>
         <div className='flex flex-col my-1 gap-1'>
